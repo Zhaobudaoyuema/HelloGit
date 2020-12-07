@@ -12,7 +12,7 @@ public class message {
     public String message(Model model){
 
         model.addAttribute("shuju","测试");
-
+        System.out.println("haha");
         return "message";
     }
 }
